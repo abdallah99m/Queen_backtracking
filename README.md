@@ -9,6 +9,7 @@ The idea is to place queens one by one in different columns, starting from the l
     return true
 3) Try all rows in the current column. 
    Do following for every tried row.
+   
     a) If the queen can be placed safely in this row 
        then mark this [row, column] as part of the 
        solution and recursively check if placing
